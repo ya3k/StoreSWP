@@ -1,0 +1,117 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="col-lg-3">
+    <!-- Toggle button -->
+    <button class="btn btn-outline-secondary mb-3 w-100 d-lg-none"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span>Show filter</span>
+    </button>
+    <!-- Collapsible wrapper -->
+    <div class="collapse card d-lg-block mb-5" id="navbarSupportedContent">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button text-dark bg-light"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#panelsStayOpen-collapseTwo"
+                            aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                        Brands
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+                    <div class="accordion-body">
+                        <div>
+                            <!-- Checked checkbox -->
+                            <div class="form-check">
+
+                                <label class="form-check-label" for="flexCheckChecked1">Mercedes</label>
+                                <span class="badge badge-secondary float-end">120</span>
+                            </div>
+                            <!-- Checked checkbox -->
+                            <div class="form-check">
+
+                                <label class="form-check-label" for="flexCheckChecked2">Toyota</label>
+                                <span class="badge badge-secondary float-end">15</span>
+                            </div>
+                            <!-- Checked checkbox -->
+                            <div class="form-check">
+
+                                <label class="form-check-label" for="flexCheckChecked3">Mitsubishi</label>
+                                <span class="badge badge-secondary float-end">35</span>
+                            </div>
+                            <!-- Checked checkbox -->
+                            <div class="form-check">
+
+                                <label class="form-check-label" for="flexCheckChecked4">Nissan</label>
+                                <span class="badge badge-secondary float-end">89</span>
+                            </div>
+                            <!-- Default checkbox -->
+                            <div class="form-check">
+
+                                <label class="form-check-label" for="flexCheckDefault">Honda</label>
+                                <span class="badge badge-secondary float-end">30</span>
+                            </div>
+                            <!-- Default checkbox -->
+                            <div class="form-check">
+
+                                <label class="form-check-label" for="flexCheckDefault">Suzuki</label>
+                                <span class="badge badge-secondary float-end">30</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button text-dark bg-light"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#panelsStayOpen-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                        Price
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                    <div class="accordion-body">
+
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <p class="mb-0">
+                                    Min
+                                </p>
+                                <div class="form-outline">
+                                    <input type="number" id="typeNumber" class="form-control" />
+                                    <label class="form-label" for="typeNumber">$0</label>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <p class="mb-0">
+                                    Max
+                                </p>
+                                <div class="form-outline">
+                                    <input type="number" id="typeNumber" class="form-control" />
+                                    <label class="form-label" for="typeNumber">$1,0000</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-white w-100 border border-secondary">apply</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+</div>
